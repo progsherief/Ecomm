@@ -1,0 +1,20 @@
+{
+    "navbar": {
+        "home": "Home",
+        "products": "Products",
+        "categories": "Categories",
+        "brands": "Brands",
+        "signout": "SignOut",
+        "lang":"Lang",
+        "cart":"Cart",
+        "WhishList":"Whish List"
+    },
+
+    "home": {
+        "home": "Home",
+        "products": "Products",
+        "categories": "Categories",
+        "brands": "Brands",
+        "signout": "SignOut"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "navbar": {
+        "home": "الرئيسة",
+        "products": "المنتجات",
+        "categories": "الأقسام",
+        "brands": "العلامات التجارية",
+        "signout": "خروج",
+        "lang": "اللغة",
+        "cart": "السلة",
+        "WhishList": "قائمة الرغبات"
+    },
+    "home": {
+        "home": "Home",
+        "products": "Products",
+        "categories": "Categories",
+        "brands": "Brands",
+        "signout": "SignOut"
+    }
+}
