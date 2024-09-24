@@ -1,0 +1,21 @@
+<section class="bg-main-light rounded-4 shadow p-2 my-2 w-75 mx-auto">
+    <h1 class="text-center"></h1>
+    <form [formGroup]="orders" (ngSubmit)="orderSubmit()" >
+        <div class="my-1">
+            <label for="details">Details</label>
+            <input formControlName="details" id="details" class="form-control">
+        </div>
+
+        <div class="my-1">
+            <label for="phone">Phone</label>
+            <input id="phone"  formControlName="phone" type="tel" class="form-control">
+        </div>
+
+        <div class="my-1">
+            <label for="city">City</label>
+            <input id="city" formControlName="city" type="text" class="form-control">
+        </div>
+
+        <button type="submit" class="btn-main" >Check out</button>
+    </form>
+</section>

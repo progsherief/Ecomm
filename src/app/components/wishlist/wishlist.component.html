@@ -1,0 +1,31 @@
+<section class="bg-main-light rounded-4 shadow p-4 my-2 w-75 mx-auto">
+    <div class="d-flex align-items-center justify-content-between">
+        <h1 class="h2 ">My Wish List</h1>
+       
+    </div>
+
+    @for (item of wishListDetails; track item._id) {
+    <div class="row mb-1 border-bottom">
+        <!-- image -->
+        <div class="col-md-1">
+            <img [src]="item.imageCover" class="w-100" [alt]="item.title">
+
+        </div>
+        <!-- info -->
+        <div class="col-md-11 d-flex  aligh-items-center justify-content-between">
+            <div>
+                <h3 class="h-5"> {{item.title}} </h3>
+                <p class="text-main m-0">Price: {{item.price}} </p>
+                <button class="text-danger cr btn p-0" (click)="removeItem(item.id)"> <i
+                        class="fa-solid fa-trash"></i></button>
+            </div>
+            <div class="d-flex aligh-items-center gap-2">
+                <div> <button class="btn-main w-100" (click)="AddToCart(item.id)">Add To Cart</button></div>
+              
+            </div>
+        </div>
+
+    </div>
+    }
+    <!-- } --> 
+</section>
